@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.API", "src\Presentation\AuthService.API\AuthService.API.csproj", "{B0F2516B-81E3-4229-939B-58B74F18F725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Application", "src\Application\AuthService.Application\AuthService.Application.csproj", "{9A61D492-AD19-493A-9214-FB828AF16FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Domain", "src\Domain\AuthService.Domain\AuthService.Domain.csproj", "{DBBB5EE3-70FA-4DED-ABAE-4B67984587B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Infrastructure", "src\Infrastructure\AuthService.Infrastructure\AuthService.Infrastructure.csproj", "{885AD474-CFDC-48A8-95EE-47207758B051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Tests", "tests\AuthService.Tests\AuthService.Tests.csproj", "{56B452C2-8337-4024-A58F-248440EE1519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0F2516B-81E3-4229-939B-58B74F18F725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F2516B-81E3-4229-939B-58B74F18F725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F2516B-81E3-4229-939B-58B74F18F725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F2516B-81E3-4229-939B-58B74F18F725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A61D492-AD19-493A-9214-FB828AF16FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A61D492-AD19-493A-9214-FB828AF16FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A61D492-AD19-493A-9214-FB828AF16FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A61D492-AD19-493A-9214-FB828AF16FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBB5EE3-70FA-4DED-ABAE-4B67984587B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBB5EE3-70FA-4DED-ABAE-4B67984587B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBB5EE3-70FA-4DED-ABAE-4B67984587B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBB5EE3-70FA-4DED-ABAE-4B67984587B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885AD474-CFDC-48A8-95EE-47207758B051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885AD474-CFDC-48A8-95EE-47207758B051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885AD474-CFDC-48A8-95EE-47207758B051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885AD474-CFDC-48A8-95EE-47207758B051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B452C2-8337-4024-A58F-248440EE1519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B452C2-8337-4024-A58F-248440EE1519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B452C2-8337-4024-A58F-248440EE1519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B452C2-8337-4024-A58F-248440EE1519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EFA5285-4467-44B8-8C29-420D2AEDE872}
+	EndGlobalSection
+EndGlobal
