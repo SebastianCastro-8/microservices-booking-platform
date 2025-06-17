@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Microservices.Core</PackageId>
+    <Authors>JhonSebastianCastro</Authors>
+    <Title>Microservices.Core (Domain, Events, Messaging)</Title>
+  </PropertyGroup>
+
+</Project>
